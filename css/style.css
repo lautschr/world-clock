@@ -5,10 +5,19 @@ body {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
-  padding: 30px;
+  padding: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 5px;
+  background: linear-gradient(
+    90deg,
+    rgb(234, 227, 217) 0%,
+    rgb(237, 227, 217) 16.667%,
+    rgb(233, 220, 209) 33.333%,
+    rgb(223, 207, 196) 50%,
+    rgb(208, 191, 180) 66.667%,
+    rgb(192, 174, 163) 83.333%,
+    rgb(177, 160, 149) 100%
+  );
 }
 
 h1 {
@@ -27,6 +36,7 @@ select {
   padding: 10px;
   border-radius: 4px;
   font-size: 14px;
+  border-width: 2px;
 }
 
 .date {
